@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!-- Jose Alberto Tayag, 000907201
+February 16,2024 -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <header>  
+        <h1>Assignment 2</h1>
+        <h2>Jose Alberto Tayag, 000907201</h2>  
+    <header>
+    <main>
+      <div class="container">
+        <div class="row justify-content-evenly">
+          <!-- Group 1 Choice 1 Question -->
+          <div class="col-lg-5 col-md-5 col-sm-12 bg-secondary bg-gradient p-4 border border-secondary rounded mt-3">
+            <h3>Check the Number if Its in-Range</h3>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" placeholder="Number" id="g1_q1_input">
+            </div>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#problemModal1" id="g1_q1_button">
+                Calculate
+            </button>
+            <div class="modal fade" id="problemModal1" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLabel1">Results!!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <textarea id="g1_q1_output" readonly class="form-control" placeholder="Output will appear here"></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+          <!-- Group 1 Choice 2 Question -->
+          <div class="col-lg-5 col-md-5 col-sm-12 bg-secondary bg-gradient p-4  border border-secondary rounded mt-3">
+            <h3>Days Convertion</h3>
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" placeholder="Number" id="g1_q2_input">
+            </div>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#problemModal2" id="g1_q2_button">
+              Calculate
+            </button>
+            <div class="modal fade" id="problemModal2" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel2">Results!!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <textarea id="g1_q2_output" readonly class="form-control" placeholder="Output will appear here"></textarea>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Group 2 Choice 1 Question -->
+          <div class="col-lg-5 col-md-5 col-sm-12 bg-secondary bg-gradient p-4  border border-secondary rounded mt-3">
+            <h3>Check if Vowel or Not</h3>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" placeholder="Number" id="g2_q1_input">
+              </div>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#problemModal3" id="g2_q1_button">
+              Calculate
+            </button>
+            <div class="modal fade" id="problemModal3" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel3">Results!!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <textarea id="g2_q1_output" readonly class="form-control" placeholder="Output will appear here"></textarea>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Group 2 Choice 3 Question -->
+          <div class="col-lg-5 col-md-5 col-sm-12 bg-secondary bg-gradient p-4  border border-secondary rounded mt-3">
+            <h3>Factorial Value</h3>
+            <div class="form-floating mb-3">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" placeholder="Number" id="g2_q3_input">
+              </div>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#problemModal4" id="g2_q3_button">
+              Calculate
+            </button>
+            <div class="modal fade" id="problemModal4" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel4">Results!!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <textarea id="g2_q3_output" readonly class="form-control" placeholder="Output will appear here"></textarea>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Group 3 Choice 2 Question -->
+        <div class="col-lg-9 col-md-9 col-sm-12 bg-secondary bg-gradient p-4  border border-secondary rounded mt-3">
+          <h3>Simple Calculator</h3>
+          <div class="form-floating mb-3">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" placeholder="Number" id="g3_q2_input">
+            </div>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#problemModal5" id="g3_q2_button">
+            Calculate
+          </button>
+          <div class="modal fade" id="problemModal5" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalLabel5">Results!!</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <textarea id="g3_q2_output" readonly class="form-control" placeholder="Output will appear here"></textarea>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <footer>
+        <p>© 2024, Jose Tayag, Mohawk College</p>
+    </footer>
+  </body>
+</html>
